@@ -5,7 +5,7 @@
 int main(int argc, char* argv[])
 {
     cr_plugin ctx;
-    cr_plugin_open(ctx, "C:/Dev/HelloCppHotReloading/01_cr/module.dll");
+    cr_plugin_open(ctx, "C:/Dev/HelloCppHotReloading/01_cr/build/Debug/module.dll");
 
     while (true)
     {
